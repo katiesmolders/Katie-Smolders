@@ -1,0 +1,601 @@
+:root {font-size: 62.5%;}
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+
+.mezelf{
+  background-image: url("img/mezelf.jpg");
+  position: absolute;
+  top: 19.4rem;
+  width: 100vw;
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+img#hamburger {
+      display: block;
+      text-align: center;
+      position: absolute;
+      top: 9.5rem;
+      width: 4.5rem;
+      background-color: white;
+      left: 47.5vw;
+      font-weight: 300;
+      color: black;
+      padding-left: 1rem;
+      padding-right: 1rem;
+}
+
+nav {
+      opacity: 0;
+      height: 0;
+      overflow: hidden;
+      border-bottom: .1rem solid black;
+      transition: all 1s;
+      text-align: center;
+}
+
+nav a {
+      font-family: 'Fredericka the Great', cursive;
+      font-weight: 300;
+      text-decoration: none;
+      color: black;
+      font-size: 1.75rem;
+      margin-right: 1.75rem;
+      line-height: 2.5rem;
+}
+
+nav a:last-child {
+      margin-right: 0;
+}
+
+nav a:hover{
+  color: #b6c903;
+}
+
+.zichtbaar {
+      opacity: 1;
+      height: 5.5rem;
+      margin-bottom: 3rem;
+}
+h1{
+      text-align: center;
+      border-bottom: .1rem solid black;
+      padding-bottom: 5rem;
+      font-size: 4rem;
+      font-family: 'Fredericka the Great', cursive;
+      margin-bottom: 3rem;
+      margin-top: 2rem;
+}
+
+
+.mezelf h1{
+  font-size: 4rem;
+  color: white;
+  font-family: 'Fredericka the Great', cursive;
+  padding: 1rem;
+  border-bottom: none;
+  animation-name: naam;
+  animation-duration: 2s;
+  animation-fill-mode: backwards;
+  z-index: 1;
+}
+
+h2{
+  border-bottom: 0.1rem solid black;
+  padding: 0.5rem;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 3rem;
+  z-index: 1;
+}
+p{
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Coming Soon', cursive;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  z-index: 1;
+}
+.about h2{
+  position: absolute;
+  top: 50rem;
+  left: 35%;
+}
+.about p{
+  position: absolute;
+  top: 53rem;
+}
+
+.gd h2{
+  position: absolute;
+  top: -5.5rem;
+  left: 27%;
+}
+.gd{
+ column-count: 2;
+ position: absolute;
+ top: 80rem;
+ margin: 2rem;
+ z-index: 1;
+
+
+}
+.gd a {
+	display: block;
+	margin-bottom: 3rem;
+  break-inside: avoid;
+  text-decoration: none;
+  color: black;
+}
+
+.gd img {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 2rem;
+	filter: grayscale(100%);
+}
+
+.gd img:hover{
+  filter: grayscale(0%);
+}
+
+
+.drama h2{
+  position: absolute;
+  top: 184rem;
+  left: 22%;
+}
+
+.drama img{
+  position: absolute;
+  top: 191rem;
+  width: 100vw;
+  height: 50rem;
+  z-index: 1;
+}
+.drama a{
+  text-decoration: none;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 2rem;
+  color: black;
+  padding: 1rem;
+  position: absolute;
+  top: 298rem;
+  left: 38%;
+  border: 0.1rem solid black;
+  z-index: 1;
+}
+
+.drama a:hover{
+  background-color:#859abc;
+  color:white;
+  border: none;
+  font-size: 2.2rem;
+  left:37%;
+
+}
+
+.honger h2{
+  position: absolute;
+  top: 253rem;
+  left:35%
+}
+
+.honger img{
+  position: absolute;
+  width: 50vw;
+  top: 260rem;
+  left: 24%;
+  z-index: 1;
+
+}
+.honger a{
+  text-decoration: none;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 2rem;
+  color: black;
+  padding: 1rem;
+  position: absolute;
+  top: 244rem;
+  left: 32%;
+  border: 0.1rem solid black;
+  z-index: 1;
+}
+
+.honger a:hover{
+  background-color:#859abc;
+  color:white;
+  border: none;
+  font-size: 2.2rem;
+  left:31%;
+
+}
+
+.contact h2{
+  position: absolute;
+  top: 328rem;
+  left: 40%;
+  animation-name: contact;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.contact p:nth-child(2){
+  position: absolute;
+  top: 332rem;
+  left: 32%;
+}
+
+.contact p:nth-child(3){
+  position: absolute;
+  top: 334rem;
+  left: 36%;
+}
+
+.contact p:nth-child(4){
+  position: absolute;
+  top: 336rem;
+  left: 29%;
+}
+
+
+
+
+iframe {
+      margin-left: -32px;
+}
+
+.kader {
+      margin: 2rem auto;
+      overflow: hidden;
+      width: 400px;
+      height: 473px;
+      position: absolute;
+      top: 340rem;
+      left: 5rem;
+      font-size: 3rem;
+      z-index: 1;
+}
+.shapes div {
+      padding: 3rem;
+      width: 80vw;
+      height: 57vh;
+      position:absolute;
+      z-index: 0;
+}
+
+.shapes div:nth-child(1) {
+      background-color: #b6c903;
+      right: -100vw;
+      top: 40vh;
+}
+
+.bedankt{
+
+  position: absolute;
+  border-bottom: none;
+  top: 310rem;
+  font-size: 3rem;
+  font-family: 'Fredericka the Great', cursive;
+  animation: bedankt;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.tweedePag{
+display: none;
+}
+
+.eerstePag{
+
+}
+
+.slide1{
+  position: absolute;
+  top: 82rem;
+  left: 30%;
+
+}
+
+.slide2{
+  position: absolute;
+  top: 82rem;
+  left: 30%;
+  animation-name: slide2;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+.slide3{
+  position: absolute;
+  top: 82rem;
+  left: 30%;
+  animation-name: slide1;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+.hoofdtitel{
+  position: absolute;
+  top: 2rem;
+  z-index: 1;
+}
+.foto1{
+  position: absolute;
+  top: 10rem;
+  z-index: 1;
+}
+.tekst{
+  position: absolute;
+  top: 50rem;
+  left: 15%;
+  width: 40rem;
+}
+
+.posters{
+  position: absolute;
+  top: 77rem;
+  left: 44%;
+}
+
+@keyframes naam{
+  0%{
+    transform: translate(0,100vw);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(0,0);
+    opacity: 1;
+  }
+}
+
+@keyframes bedankt {
+  0% {
+        transform: translate(-90vw,0);
+  }
+  100% {
+        transform: translate(80vw,0);
+
+  }
+}
+@keyframes contact {
+  0% {
+        transform: translate(0,0);
+  }
+  100% {
+        transform: translate(0,0);
+        color: #b6c903;
+
+  }
+}
+@keyframes slide1 {
+  0% {
+        transform: translate(0,0);
+        opacity: 1;
+  }
+  50%{
+    transform: translate(0,0);
+    opacity: 1;
+  }
+  60%{
+    transform: translate(0,0);
+  opacity: 0;
+  }
+  100% {
+        transform: translate(0,0);
+      opacity: 0;
+
+  }
+}
+@keyframes slide2 {
+  0% {
+        transform: translate(0,0);
+        opacity: 1;
+  }
+  50%{
+    transform: translate(0,0);
+    opacity: 1;
+  }
+  60%{
+    transform: translate(0,0);
+  opacity: 0;
+  }
+  100% {
+        transform: translate(0,0);
+      opacity: 0;
+
+  }
+}
+  @media (min-width: 60rem) {
+    .about h2{
+      position: absolute;
+      top: 52rem;
+      left: 45%;
+    }
+    .about p{
+      position: absolute;
+      top: 56rem;
+      left: 23%;
+      width: 80rem;
+    }
+    .gd h2{
+      position: absolute;
+      top: -6rem;
+      left: 42.5%;
+    }
+    .gd{
+     column-count: 3;
+     position: absolute;
+     top: 80rem;
+     margin: 2rem;
+     z-index: 1;
+    }
+
+    .drama h2{
+      position: absolute;
+      top: 230rem;
+      left: 40%;
+    }
+
+    .drama img{
+      position: absolute;
+      top: 236rem;
+      left: 30%;
+      width: 40vw;
+      height: 50rem;
+      z-index: 1;
+    }
+    .drama a{
+      text-decoration: none;
+      font-family: 'Fredericka the Great', cursive;
+      font-size: 2rem;
+      color: black;
+      padding: 1rem;
+      position: absolute;
+      top: 290rem;
+      left: 46%;
+      border: 0.1rem solid black;
+      z-index: 1;
+    }
+    .drama a:hover{
+      background-color:#859abc;
+      color:white;
+      border: none;
+      font-size: 2.2rem;
+      left:44%;
+    }
+    .honger a:hover{
+      background-color:#859abc;
+      color:white;
+      border: none;
+      font-size: 2.2rem;
+      left:42%;
+    }
+    .honger h2{
+      position: absolute;
+      top: 308rem;
+      left:43%;
+    }
+
+    .honger img{
+      position: absolute;
+      width: 20vw;
+      top: 315rem;
+      left: 38%;
+      z-index: 1;
+
+    }
+    .honger a{
+      text-decoration: none;
+      font-family: 'Fredericka the Great', cursive;
+      font-size: 2rem;
+      color: black;
+      padding: 1rem;
+      position: absolute;
+      top: 360rem;
+      left: 42%;
+      border: 0.1rem solid black;
+      z-index: 1;
+    }
+
+
+    .contact h2{
+      position: absolute;
+      top: 380rem;
+      left: 44%;
+      animation-name: contact;
+      animation-duration: 4s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+    }
+
+    .contact p:nth-child(2){
+      position: absolute;
+      top: 383rem;
+      left: 41.5%;
+    }
+
+    .contact p:nth-child(3){
+      position: absolute;
+      top: 385rem;
+      left: 43%;
+    }
+
+    .contact p:nth-child(4){
+      position: absolute;
+      top: 387rem;
+      left: 41%;
+    }
+    .bedankt{
+
+      position: absolute;
+      border-bottom: none;
+      top: 368rem;
+      font-size: 3rem;
+      font-family: 'Fredericka the Great', cursive;
+      animation: bedankt;
+      animation-duration: 6s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+    }
+
+    iframe {
+          margin-left: -32px;
+    }
+
+    .kader {
+          margin: 2rem auto;
+          overflow: hidden;
+          width: 400px;
+          height: 473px;
+          position: absolute;
+          top:400rem;
+          left: 35%;
+          font-size: 3rem;
+          z-index: 1;
+    }
+    .foto1{
+      position: absolute;
+      top: 10rem;
+      left: 34%;
+    }
+    .tekst{
+      position: absolute;
+      top: 50rem;
+      left: 37%;
+      width: 40rem;
+    }
+
+    .posters{
+      position: absolute;
+      top: 77rem;
+      left: 44%;
+    }
+    .slide1{
+      position: absolute;
+      top: 82rem;
+      left: 40%;
+
+    }
+
+    .slide2{
+      position: absolute;
+      top: 82rem;
+      left: 40%;
+      animation-name: slide2;
+      animation-duration: 15s;
+      animation-iteration-count: infinite;
+    }
+
+    .slide3{
+      position: absolute;
+      top: 82rem;
+      left: 40%;
+      animation-name: slide1;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+    }
+}
